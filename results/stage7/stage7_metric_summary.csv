@@ -1,0 +1,4 @@
+dataset,frames,feature_column,mean_features,min_features,max_features,inlier_column,mean_inliers,mean_confidence,min_confidence,status_column,status_labels,mean_velocity,mean_speed,mean_acceleration,kalman_used_frames
+Stage 5,329,target_features,71.47720364741642,16,197,target_inliers,60.55015197568389,0.5446395136778115,0.2066,status,3,,,,
+Stage 6A,329,target_points,84.1823708206687,0,155,ransac_inliers,85.03647416413374,0.9303773396703539,0.0,tracking_status,3,9.765452569514785,,,
+Final motion,329,target_features,104.70516717325228,8,200,target_inliers,93.41337386018238,0.7859437634011411,0.1545,status,3,,8.443488379283451,0.0345574778748655,21.0

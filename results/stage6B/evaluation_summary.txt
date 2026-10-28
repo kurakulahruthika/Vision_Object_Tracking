@@ -1,0 +1,17 @@
+STAGE 6B - EVALUATION SUMMARY
+========================================
+Total logged frames: 329
+Frames labelled TRACKING: 303
+TRACKING-labelled percentage (%): 92.1
+Mean target feature points: 84.18
+Minimum target feature points: 0
+Maximum target feature points: 155
+Mean RANSAC inliers: 85.04
+Mean confidence: 0.93
+Mean reported velocity (pixels/frame): 9.77
+
+Tracking status counts:
+tracking_status
+TRACKING      303
+REJECTED       24
+FEW_POINTS      2

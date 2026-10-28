@@ -1,0 +1,53 @@
+PS C:\Vision_Object_Tracking> python main.py
+Video opened successfully!
+Video FPS: 23.976023976023978
+Resolution: 1280 x 720
+Total Frames: 330
+
+Select the vehicle you want to track.
+Select a ROI and then press SPACE or ENTER button!
+Cancel the selection process by pressing c button!
+
+Selected object:
+x = 426
+y = 213
+width = 128
+height = 273
+Initial feature points: 100
+
+Stage 2 tracking started...
+Reliable-point filtering + feature re-detection
+Press Q to stop.
+
+Frame 269: Only 7 reliable points. Re-detecting features...
+Frame 274: Only 8 reliable points. Re-detecting features...
+Frame 277: Only 9 reliable points. Re-detecting features...
+Frame 284: Only 5 reliable points. Re-detecting features...
+Frame 290: Only 9 reliable points. Re-detecting features...
+Frame 296: Only 8 reliable points. Re-detecting features...
+Frame 315: Only 8 reliable points. Re-detecting features...
+Frame 324: Only 9 reliable points. Re-detecting features...
+Frame 329: Only 5 reliable points. Re-detecting features...
+
+
+======================================
+       STAGE 2 TRACKING RESULTS
+======================================
+Frames processed      : 329
+Original video FPS    : 23.98
+Average processing FPS: 67.27
+Initial feature points: 100
+Minimum feature points: 10
+Maximum feature points: 100
+Feature re-detections : 9
+Output video saved to: results/stage2_output.mp4
+======================================
+PS C:\Vision_Object_Tracking> 
+
+Our actual research objective
+
+We are going to build:
+
+A lightweight adaptive optical-flow-based tracker that dynamically changes its tracking strategy according to motion, feature reliability, geometric consistency and tracking confidence, while providing quantitative motion analysis and recovery from tracking failure.
+
+That is much more defensible than simply saying "we used optical flow."
